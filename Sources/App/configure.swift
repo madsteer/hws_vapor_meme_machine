@@ -21,4 +21,7 @@ public func configure(
     var middleware = MiddlewareConfig.default()
     middleware.use(FileMiddleware.self)
     services.register(middleware)
+
+    // overriding 1MB limit on file uploads
+    services.register(NIOServerConfig.default(maxBodySize: 20_000_000))
 }

@@ -14838,6 +14838,7 @@
 				);
 				INFOPLIST_FILE = hws_vapor_meme_machine.xcodeproj/SwiftGD_Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				"LIBRARY_SEARCH_PATHS[arch=*]" = /usr/local/lib;
 				OTHER_CFLAGS = (
 					"$(inherited)",
 					"-I/usr/local/Cellar/gd/2.2.5/include",
@@ -15549,6 +15550,7 @@
 				);
 				INFOPLIST_FILE = hws_vapor_meme_machine.xcodeproj/App_Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				"LIBRARY_SEARCH_PATHS[arch=*]" = /usr/local/lib;
 				OTHER_CFLAGS = (
 					"$(inherited)",
 					"-I/usr/local/Cellar/gd/2.2.5/include",

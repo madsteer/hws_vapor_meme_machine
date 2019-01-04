@@ -28,7 +28,7 @@ public func routes(_ router: Router) throws {
         return try req.view().render("home", context)
     }
 
-    router.post("upload") { req -> Future<Response> in
+    router.post { req -> Future<Response> in
         struct UserFile: Content {
             var upload: [File]
         }

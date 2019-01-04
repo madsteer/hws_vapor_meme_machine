@@ -7,7 +7,7 @@
         <a href="/uploads/originals/#(file)" target="_blank"><img src="/uploads/thumbs/#(file)" style="border: 1px solid black; margin: 20px;" /></a>
     }
 
-    <form method="post" action="/upload" enctype="multipart/form-data">
+    <form method="post" action="/" enctype="multipart/form-data">
         <p><input type="file" name="upload[]" multiple/></p>
         <p><button type="submit" class="btn btn-primary">Upload</button></p>
     </form>
